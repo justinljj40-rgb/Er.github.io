@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business English Mastery Dashboard</title>
+    <style>
+        :root {
+            --primary-navy: #0f172a;
+            --accent-gold: #b45309;
+            --bg-off-white: #f8fafc;
+            --border-soft: #e2e8f0;
+            --text-dark: #1e293b;
+        }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--bg-off-white);
+            color: var(--text-dark);
+            margin: 0; padding: 0;
+        }
+        .sidebar {
+            width: 280px; height: 100vh; position: fixed;
+            background: var(--primary-navy); color: white;
+            padding: 30px; box-sizing: border-box;
+        }
+        .main-content { margin-left: 280px; padding: 50px; }
+        h1 { font-weight: 200; font-size: 2.8rem; letter-spacing: -2px; margin-bottom: 40px; }
+        .module-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; }
+        .card {
+            background: white; border: 1px solid var(--border-soft);
+            padding: 30px; border-radius: 4px; transition: 0.3s;
+        }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.03); }
+        .tag { color: var(--accent-gold); font-size: 0.75rem; text-transform: uppercase; font-weight: 700; margin-bottom: 10px; display: block; }
+        .vocab-box { background: #f1f5f9; padding: 15px; border-radius: 4px; margin-top: 15px; font-family: monospace; }
+        .footer { margin-top: 50px; border-top: 1px solid var(--border-soft); padding-top: 20px; font-size: 0.8rem; color: #94a3b8; }
+        a { color: white; text-decoration: none; display: block; margin: 15px 0; font-weight: 300; }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div style="font-size: 1.5rem; margin-bottom: 50px;">B.V.I.U. v3</div>
+        <a href="#people">1. People & Jobs</a>
+        <a href="#marketing">2. Marketing & Sales</a>
+        <a href="#money">3. Money & Finance</a>
+        <a href="#skills">4. Business Skills</a>
+        <div style="margin-top: 100px; color: #64748b; font-size: 0.8rem;">Current Focus: Intermediate Level</div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <span class="tag">Knowledge Repository</span>
+            <h1>High-End Business <br>Vocabulary Academy</h1>
+        </header>
+
+        <div class="module-grid">
+            <div id="people" class="card">
+                <span class="tag">Module 1: Career Infrastructure</span>
+                <h3>Jobs & Organizations</h3>
+                <p>Learn how to describe your role and corporate structure professionally.</p>
+                <div class="vocab-box">
+                    [span_7](start_span)• <b>In charge of / Responsible for:</b> 管理/负责[span_7](end_span)<br>
+                    [span_8](start_span)• <b>Delayering:</b> 扁平化（减少管理层级）[span_8](end_span)<br>
+                    [span_9](start_span)• <b>Freelancers / Contractors:</b> 自由职业者/承包商[span_9](end_span)
+                </div>
+            </div>
+
+            <div id="marketing" class="card">
+                <span class="tag">Module 2: Strategic Growth</span>
+                <h3>Marketing & The Four Ps</h3>
+                <p>Mastering the language of market penetration and brand identity.</p>
+                <div class="vocab-box">
+                    [span_10](start_span)• <b>The Four Ps:</b> Product, Price, Place, Promotion[span_10](end_span)<br>
+                    [span_11](start_span)• <b>Niche Market:</b> 利基/小众市场[span_11](end_span)<br>
+                    [span_12](start_span)• <b>Brand Recognition:</b> 品牌认知度[span_12](end_span)
+                </div>
+            </div>
+
+            <div id="money" class="card">
+                <span class="tag">Module 3: Fiscal Intelligence</span>
+                <h3>Money & The Bottom Line</h3>
+                <p>Navigating financial reports and investment terminology.</p>
+                <div class="vocab-box">
+                    [span_13](start_span)• <b>The Bottom Line:</b> 最终净利润[span_13](end_span)<br>
+                    [span_14](start_span)• <b>Cash Cow:</b> 摇钱树（利润丰厚的产品）[span_14](end_span)<br>
+                    [span_15](start_span)• <b>Trade Surplus/Deficit:</b> 贸易顺差/逆差[span_15](end_span)
+                </div>
+            </div>
+
+            <div id="skills" class="card">
+                <span class="tag">Module 4: Global Communication</span>
+                <h3>Business Communication Skills</h3>
+                <p>Telephoning, Emailing, and Effective Negotiation.</p>
+                <div class="vocab-box">
+                    [span_16](start_span)• <b>VoIP:</b> 网络电话[span_16](end_span)<br>
+                    [span_17](start_span)• <b>Attached:</b> 随信附上（邮件常用语）[span_17](end_span)<br>
+                    [span_18](start_span)• <b>Win-win:</b> 双赢（谈判核心理念）[span_18](end_span)
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            [span_19](start_span)Source: Business Vocabulary in Use Intermediate (3rd Edition) by Bill Mascull[span_19](end_span). <br>
+            [span_20](start_span)Practice Tip: Use the 'Over To You' section in each unit to relate these terms to your Amazon business[span_20](end_span).
+        </footer>
+    </div>
+</body>
+</html>
